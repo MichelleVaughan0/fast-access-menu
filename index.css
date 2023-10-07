@@ -1,0 +1,68 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    background-color: #bf0a19;
+    color: #fff;
+    width: 100%;
+    height: 140px;
+    position: absolute; /*(o relative, según tu diseño)*/
+    top: 0px;
+}
+
+header h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    font-size: 50px;
+}
+
+.wrapper {
+    background-color: #fff;
+    width: 90%;
+    height: 90%;
+    margin: 12% 0 0 10% ;
+    /*padding: 10px;*/
+}
+
+.team {
+    width: 240px;
+    height: 180px;
+    background-color: bf9663;
+    display: inline-block;
+    margin: 0 1% 0 0;
+}
+
+.team_name{
+    color: #0e0f2e;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 930;
+
+}
+.image_link{
+    height: 200px;
+    width: 200px;
+    border-radius: 5%;
+    margin: 10% 0 0 0;
+}
+.image_link:hover{
+    filter: sepia(80%);
+}
+
+footer{
+    background-color: #bf9663;
+    color: #fff;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0px;
+}
+
+footer p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 5px;
+    
+}
